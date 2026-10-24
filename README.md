@@ -2,9 +2,13 @@
 
 This repository distributes Windows x64 installers and signed update metadata for TorqueFlow Offline. The application source is maintained separately in a private repository. No workshop records, account passwords, backups, private signing keys or GitHub tokens are stored here.
 
+## Latest preview
+
+**[0.2.0-rc.33](https://github.com/LazSpace/TorqueFlow-Updates/releases/tag/v0.2.0-rc.33)** adds billing corrections, advances, live totals, invoice-only customer/vehicle details, fresh quick bills, reviewed contact removal, saved PDF attachment sharing through WhatsApp and printer paper-source selection. Installer and USB update ZIP are available on that release page.
+
 ## First updater-enabled installation
 
-The bootstrap version is **0.2.0-rc.32**. Download the Windows installer from [its release page](https://github.com/LazSpace/TorqueFlow-Updates/releases/tag/v0.2.0-rc.32). Install it manually once under the same Windows account as your existing TorqueFlow installation. Back up existing workshop records first; keep the backup passphrase and owner recovery kit separately.
+Updater support starts with **0.2.0-rc.32**. For a first installation, download the current [rc.33 Windows installer](https://github.com/LazSpace/TorqueFlow-Updates/releases/tag/v0.2.0-rc.33). Install it manually once under the same Windows account as your existing TorqueFlow installation. Back up existing workshop records first; keep the backup passphrase and owner recovery kit separately.
 
 After installation, sign in as owner and open **Settings & backups → Application updates**. Choose **Check for updates**, or enable optional automatic checks. Automatic checks do not install or interrupt billing. Installing an available update requires owner approval and a verified encrypted backup before the local database is stopped.
 
