@@ -4,11 +4,11 @@ This repository distributes Windows x64 installers and signed update metadata fo
 
 ## Latest preview
 
-**[0.2.0-rc.33](https://github.com/LazSpace/TorqueFlow-Updates/releases/tag/v0.2.0-rc.33)** adds billing corrections, advances, live totals, invoice-only customer/vehicle details, fresh quick bills, reviewed contact removal, saved PDF attachment sharing through WhatsApp and printer paper-source selection. Installer and USB update ZIP are available on that release page.
+**[0.2.0-rc.34](https://github.com/LazSpace/TorqueFlow-Updates/releases/tag/v0.2.0-rc.34)** fixes PDF sharing with Windows Share: choose WhatsApp Desktop, select the recipient, then review and send the actual PDF attachment. An explicit document-attachment fallback is available when native sharing cannot be used. This includes the previous billing corrections, advances, live totals, invoice-only customer/vehicle details, fresh quick bills, reviewed contact removal and printer paper-source selection. Installer and USB update ZIP are available on that release page.
 
 ## First updater-enabled installation
 
-Updater support starts with **0.2.0-rc.32**. For a first installation, download the current [rc.33 Windows installer](https://github.com/LazSpace/TorqueFlow-Updates/releases/tag/v0.2.0-rc.33). Install it manually once under the same Windows account as your existing TorqueFlow installation. Back up existing workshop records first; keep the backup passphrase and owner recovery kit separately.
+Updater support starts with **0.2.0-rc.32**. For a first installation, download the current [rc.34 Windows installer](https://github.com/LazSpace/TorqueFlow-Updates/releases/tag/v0.2.0-rc.34). Install it manually once under the same Windows account as your existing TorqueFlow installation. Back up existing workshop records first; keep the backup passphrase and owner recovery kit separately.
 
 After installation, sign in as owner and open **Settings & backups → Application updates**. Choose **Check for updates**, or enable optional automatic checks. Automatic checks do not install or interrupt billing. Installing an available update requires owner approval and a verified encrypted backup before the local database is stopped.
 
