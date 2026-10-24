@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "keyId": "lazspace-updates-2026",
+  "algorithm": "Ed25519",
+  "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAtDOozNuNLRy+SmITGRq+4TBgIxb6lXy5kIJX8VJb9fA=\n-----END PUBLIC KEY-----\n",
+  "spki_sha256": "00fd47218ede0589cd7498dc64e04db54bc6aa2e6e2d2dcb1b9e74157162ffdb",
+  "configured_on": "2026-10-24",
+  "purpose": "TorqueFlow update-content verification. This public key does not establish initial bootstrap trust by itself."
+}
