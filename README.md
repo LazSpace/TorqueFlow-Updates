@@ -4,13 +4,15 @@ This repository distributes Windows x64 installers and signed update metadata fo
 
 ## Latest preview
 
-**[0.2.0-rc.36](https://github.com/LazSpace/TorqueFlow-Updates/releases/tag/v0.2.0-rc.36)** simplifies updates. Enable automatic checks and verified downloads once under Settings & backups > Application updates > Automatic update settings. Choose Install update when current work is finished: TorqueFlow saves drafts, creates and verifies an encrypted safety backup, then stops PostgreSQL and opens the Windows installer. Repeated backup/password forms are optional under Use a portable backup instead. The installer and USB update ZIP are on the release page. Existing installations need this update once to get the new UI.
+**[0.2.0-rc.37](https://github.com/LazSpace/TorqueFlow-Updates/releases/tag/v0.2.0-rc.37)** adds direct Edit and Remove controls to customer/vehicle lists, with checkboxes and reviewed multi-selection removal. Unused records can be permanently deleted; records with linked vehicles, invoices, payments or workshop history are archived and can be restored. Every proposed action is shown before confirmation.
 
-Automatic backup keys are protected by the current Windows account. After reopening, choose Save safety backup recovery key; keep it separate from the archive and copy both off the PC for recovery elsewhere. Continue regular portable backups for loss of the PC or Windows account. This version includes the previous billing, PDF sharing and invoice contact correction fixes.
+Inventory lists add Activate/Deactivate controls while preserving stock quantities and history. Service reminders add Complete/Reopen actions. Eligible workflow and all catalogue lists add direct Edit, retaining role, version and sealed-record protections. Bulk removal/status actions are owner-only and limited to the selected page (up to 40). Search, filter and page changes clear selection. Issued financial records continue through their existing correction and cancellation workflows.
+
+This includes the prior automatic verified downloads, Windows-protected update safety backups, native PDF sharing and invoice contact correction fixes. Installer and USB update ZIP are on the release page. Keep regular portable backups; Windows installer confirmations still apply.
 
 ## First updater-enabled installation
 
-Updater support starts with **0.2.0-rc.32**. For a first installation, download the current [rc.36 Windows installer](https://github.com/LazSpace/TorqueFlow-Updates/releases/tag/v0.2.0-rc.36). Install it manually once under the same Windows account as your existing TorqueFlow installation. Back up existing workshop records first; keep the backup passphrase and owner recovery kit separately.
+Updater support starts with **0.2.0-rc.32**. For a first installation, download the current [rc.37 Windows installer](https://github.com/LazSpace/TorqueFlow-Updates/releases/tag/v0.2.0-rc.37). Install it manually once under the same Windows account as your existing TorqueFlow installation. Back up existing workshop records first; keep the backup passphrase and owner recovery kit separately.
 
 After installation, sign in as owner and open **Settings & backups → Application updates**. Choose **Check for updates**, or enable optional automatic checks and downloads. Downloads do not install or interrupt billing. Choose **Install update** after finishing work; the default path creates a verified encrypted safety backup automatically. The normal Windows installer and any Windows confirmation still apply; this is not unattended installation or an automatic restart promise.
 
