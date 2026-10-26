@@ -4,15 +4,17 @@ This repository distributes Windows x64 installers and signed update metadata fo
 
 ## Latest preview
 
-**[0.2.0-rc.38](https://github.com/LazSpace/TorqueFlow-Updates/releases/tag/v0.2.0-rc.38)** fixes input focus and invoice corrections. Bill-only parts retain their saved descriptions and edited names; correction drafts retain their lines when reopened. Scanner and suggestion enhancements preserve input focus and text selection. Invoice controls are unavailable briefly during saving, and the popup closes explicitly on success.
+**[0.2.0-rc.39](https://github.com/LazSpace/TorqueFlow-Updates/releases/tag/v0.2.0-rc.39)** revises invoice PDF sharing. Review the customer number, then choose **Open customer chat & prepare PDF**. It opens the exact numbered WhatsApp link and prepares the actual saved PDF. The invoice screen no longer uses the Windows app/recipient picker.
 
-Real mouse-click and hardened packaged-app checks cover retained first part/labour lines, draft recovery, stock autocomplete, a new quick bill, A5 PDF and safe shutdown. Six related regressions and existing billing/quick-flow desktop tests pass. Earlier invoices are not rewritten automatically: review the retained original and issue a further correction if an earlier correction omitted a line.
+In WhatsApp, use **Attach → Document** to select the named PDF, or paste where supported. Review the attachment and press Send yourself. A phone link does not automatically attach or deliver a document.
 
-The update includes prior reviewed customer/vehicle list actions, automatic verified downloads, Windows-protected update safety backups, PDF sharing and contact corrections. Installer and USB ZIP are on the release page. Keep regular portable backups; Windows installer confirmations still apply.
+Missing/invalid numbers are blocked before any save/copy/launch; common Indian number formats are normalized. Filenames must end in .pdf and the file must contain PDF data. Clipboard preparation uses a file drop without plain/Unicode text. Corrected-phone and saved-file-reuse checks pass. Fifteen focused tests, desktop flows, hardened packaged UI/PDF/shutdown and real Windows file packet inspection pass. External navigation is mocked; actual WhatsApp delivery remains a target-PC check. No message is sent by these tests.
+
+Prior invoice correction/focus, reviewed list actions, automatic verified downloads, Windows-protected update safety backups and contact corrections are included. Installer and USB ZIP are on the release page. Continue regular portable backups.
 
 ## First updater-enabled installation
 
-Updater support starts with **0.2.0-rc.32**. For a first installation, download the current [rc.38 Windows installer](https://github.com/LazSpace/TorqueFlow-Updates/releases/tag/v0.2.0-rc.38). Install it manually once under the same Windows account as your existing TorqueFlow installation. Back up existing workshop records first; keep the backup passphrase and owner recovery kit separately.
+Updater support starts with **0.2.0-rc.32**. For a first installation, download the current [rc.39 Windows installer](https://github.com/LazSpace/TorqueFlow-Updates/releases/tag/v0.2.0-rc.39). Install it manually once under the same Windows account as your existing TorqueFlow installation. Back up existing workshop records first; keep the backup passphrase and owner recovery kit separately.
 
 After installation, sign in as owner and open **Settings & backups → Application updates**. Choose **Check for updates**, or enable optional automatic checks and downloads. Downloads do not install or interrupt billing. Choose **Install update** after finishing work; the default path creates a verified encrypted safety backup automatically. The normal Windows installer and any Windows confirmation still apply; this is not unattended installation or an automatic restart promise.
 
